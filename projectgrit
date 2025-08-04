@@ -49,7 +49,7 @@ require([
 
   // Add your NPAs layer from ArcGIS Online (replace URL with your hosted feature layer)
   const npaLayer = new FeatureLayer({
-    url: "https://unccharlotte.maps.arcgis.com/apps/mapviewer/index.html?panel=gallery&suggestField=true&layers=28a23e503d6b4d22a584e77044038179"
+    url: "https://services1.arcgis.com/uCzmkROI93nvI5HX/arcgis/rest/services/Charlotte_Disparity_Ratio/FeatureServer"
   });
 
   map.add(npaLayer);
